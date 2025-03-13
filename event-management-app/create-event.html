@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Create Event - Event Management</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header>
+        <h1>Create a New Event</h1>
+        <nav>
+            <a href="index.html">Home</a>
+            <a href="login.html">Login</a>
+            <a href="register.html">Register</a>
+            <a href="create-event.html">Create Event</a>
+        </nav>
+    </header>
+
+    <main>
+        <form id="create-event-form">
+            <label for="title">Event Title</label>
+            <input type="text" id="title" placeholder="Enter event title" required>
+
+            <label for="description">Event Description</label>
+            <textarea id="description" placeholder="Enter event description" required></textarea>
+
+            <label for="date">Event Date</label>
+            <input type="date" id="date" required>
+
+            <label for="location">Event Location</label>
+            <input type="text" id="location" placeholder="Enter event location" required>
+
+            <button type="submit">Create Event</button>
+        </form>
+    </main>
+
+    <footer>
+        <p>&copy; 2025 Event Management. All rights reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
